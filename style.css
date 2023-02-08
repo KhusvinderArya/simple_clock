@@ -1,0 +1,49 @@
+#hour_part{
+    color:yellowgreen;
+    font-size: 200px;
+    background: linear-gradient(90deg,blue,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#min_part{
+    color:rebeccapurple;
+    font-size: 120px;
+    background: linear-gradient(90deg,blue,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#sec_part{
+    color:rebeccapurple;
+    font-size: 50px;
+}
+#prd_part{
+    color:yellow;
+    font-size: 50px;
+}
+#dots{
+    max-width:max-content;
+    font-size: 100px;
+    /* border: 1px solid red; */
+    align-self: baseline;
+}
+#whole{
+    display: flex;
+    margin-top:200px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    max-width:fit-content;
+    margin-left: 400px;
+    box-shadow: 10px 10px 50px blue;
+    background-color: palevioletred;
+    border-radius: 10%;
+    /* padding-bottom: 100px; */
+    gap: 25px;
+}
+#sp{
+    display: flex;
+    gap: 20px;
+}
+body{
+    background-color: aqua;
+}
